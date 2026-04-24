@@ -14,9 +14,9 @@
     "@atproto/oauth-client-node": "^0.3.8",
     "@prisma/client": "^6.16.2",
     "iron-session": "^8.0.4",
-    "next": "15.5.4",
-    "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "next": "^16.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
