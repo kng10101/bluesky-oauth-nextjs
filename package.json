@@ -1,0 +1,32 @@
+{
+  "name": "bluesky-oauth-nextjs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "biome check",
+    "format": "biome format --write"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.16.11",
+    "@atproto/oauth-client-node": "^0.3.8",
+    "@prisma/client": "^6.16.2",
+    "iron-session": "^8.0.4",
+    "next": "15.5.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.0",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "prisma": "^6.16.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
